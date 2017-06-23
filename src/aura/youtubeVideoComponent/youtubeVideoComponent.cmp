@@ -1,0 +1,11 @@
+<aura:component implements="flexipage:availableForAllPageTypes, forceCommunity:availableForAllPageTypes">
+
+	<aura:attribute name="videoId" type="string" access="global" default="OsC_zMcStro"/>
+	<aura:attribute name="startTime" type="integer" access="global"/>
+	<aura:attribute name="endTime" type="integer" access="global"/>
+
+	<div class="videoWrapper">
+		<iframe width="560" height="315" src="{!'https://www.youtube.com/embed/' + v.videoId + if(v.startTime, '?start='+v.startTime,'') + if(v.endTime, '?end='+v.endTime,'')}" frameborder="0" allowfullscreen="true"/>
+	</div>
+
+</aura:component>

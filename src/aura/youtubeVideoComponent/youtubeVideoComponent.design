@@ -1,0 +1,5 @@
+<design:component >
+	<design:attribute name="videoId" label="Video videoId" description="ID of the video.  For example, if your url is https://www.youtube.com/watch?v=OsC_zMcStro, the ID is OsC_zMcStro"/>
+	<design:attribute name="startTime" label="Start Time (sec)" />
+	<design:attribute name="endTime" label="End Time (sec)" />
+</design:component>
